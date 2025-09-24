@@ -1,5 +1,5 @@
-#include <iostream>
-#include "board.h"
+#include<iostream>
+#include"board.h"
 #define SIZE 5
 using namespace std;
 
@@ -32,7 +32,7 @@ class BoardArray : public Board {
 if (index < SIZE) {
     array[index++] = *entry;
 } else {
-    cout << entry->name() << "'s score is too low to be added!" << endl;
+    cout << entry->name<< "'s score is too low to be added!" << endl;
 } 
             // TODO: IMPLEMENT THIS FUNCTION
             // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
